@@ -360,7 +360,7 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="c3bcbcb8140be90d1514008d10ac9573296e8d6f" upstream="refs/heads/bt.lnx.2.1.r15-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/Browser2" path="packages/apps/Browser2" revision="67b83b995803fb7728b221c015e3aeba6bf52ac7" upstream="refs/heads/android-framework.lnx.2.0.r16-rel"/>
   <project name="platform/packages/apps/CMFileManager" path="packages/apps/CMFileManager" revision="f5587779054feb0480b6894d3fa01708009e2f34" upstream="refs/heads/android_ui.lnx.2.1.r15-rel"/>
-  <project groups="pdk-fs" name="platform/packages/apps/Calculator" path="packages/apps/Calculator" revision="1ffca4f6d09fb946b095e189cebc413fd2fa5b3b" upstream="refs/heads/android_ui.lnx.2.1.r15-rel"/
+  <project groups="pdk-fs" name="platform/packages/apps/Calculator" path="packages/apps/Calculator" revision="1ffca4f6d09fb946b095e189cebc413fd2fa5b3b" upstream="refs/heads/android_ui.lnx.2.1.r15-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/Calendar" path="packages/apps/Calendar" revision="c3727a8ffac478dbee2ca4fa8c3b33c5e24f5a86" upstream="refs/heads/android_ui.lnx.2.1.r15-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/Camera" path="packages/apps/Camera" revision="33c59af04ab44eff0e3806f140d472252300646a" upstream="refs/heads/android-framework.lnx.2.0.r16-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/Camera2" path="packages/apps/Camera2" revision="efc42d13667d2ed452cbfac34d86ce6ab8cb6a4e" upstream="refs/heads/android-framework.lnx.2.0.r16-rel"/>
