@@ -2,6 +2,7 @@
 
 <manifest>
   <remote fetch="https://source.codeaurora.org/quic/la/" name="caf" review="codeaurora.org"/>
+  <remote  name="github" fetch="https://github.com/" revision="refs/heads/n"/>        
   <default remote="caf" revision="LA.UM.5.8.r1"/>
   <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="b67e9d49fe41679af0f47b864fca0465b0976cc6" upstream="refs/heads/uefi.lnx.1.0.r16-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="device/common" revision="010b49b3503b950fe09b6d5f65f481d577b4399a" upstream="refs/heads/android-framework.lnx.2.0.r16-rel"/>
@@ -114,7 +115,6 @@
   <project groups="pdk" name="platform/external/fdlibm" path="external/fdlibm" revision="eb6c9fcfe52e665917ff5a9670c909f9e3c92fa5" upstream="refs/heads/android-external.lnx.2.0.r15-rel"/>
   <project groups="pdk" name="platform/external/fec" path="external/fec" revision="791afbe58ff9f55145c4adf632ab8cc9ca6e5686" upstream="refs/heads/android-external.lnx.2.0.r15-rel"/>
   <project groups="pdk" name="platform/external/fio" path="external/fio" revision="1aec78b2e6aaf90d45b8e3f9b3d2f07dd9334827" upstream="refs/heads/android-external.lnx.2.0.r15-rel"/>
-  <project groups="pdk" name="platform/external/flac" path="external/flac" revision="3c74c11c30cdae95914c0b6a9228a3906b238c73" upstream="refs/heads/android-external.lnx.2.0.r15-rel"/>
   <project groups="pdk" name="platform/external/fonttools" path="external/fonttools" revision="fede58680958e96e6e8f61c3cc6282f798452c53" upstream="refs/heads/android-external.lnx.2.0.r15-rel"/>
   <project groups="pdk" name="platform/external/freetype" path="external/freetype" revision="cb249b9644414635e85e0983d55c73d6c1c9a670" upstream="refs/heads/android-external.lnx.2.0.r15-rel"/>
   <project groups="pdk" name="platform/external/fsck_msdos" path="external/fsck_msdos" revision="17a1471db8c528cd9d44ec4385d2eb3614138856" upstream="refs/heads/android-external.lnx.2.0.r15-rel"/>
@@ -184,8 +184,6 @@
   <project groups="pdk" name="platform/external/libmpeg2" path="external/libmpeg2" revision="8c5985cd6109702e4b8c5f860e5717ea2227d39b" upstream="refs/heads/android-external.lnx.2.0.r15-rel"/>
   <project groups="pdk" name="platform/external/libmtp" path="external/libmtp" revision="7ed2065db3ab9851f47426f3a35ba7045ce528b2" upstream="refs/heads/android-external.lnx.2.0.r15-rel"/>
   <project name="platform/external/libnetfilter_conntrack" path="external/libnetfilter_conntrack" revision="243985eafc89e86eb8e2d8574e4ab57f5b14b83a" upstream="refs/heads/android-external.lnx.2.0.r15-rel"/>
-  <project groups="pdk" name="platform/external/libnfc-nci" path="external/libnfc-nci" revision="7402721ff95dee9485769cb767da9d1d96922097" upstream="refs/heads/nfc-aosp.lnx.2.0.r15-rel"/>
-  <project groups="pdk" name="platform/external/libnfc-nxp" path="external/libnfc-nxp" revision="76f8fa7177767cb377f9212e207e3ac16f9b8d48" upstream="refs/heads/android-external.lnx.2.0.r15-rel"/>
   <project name="platform/external/libnfnetlink" path="external/libnfnetlink" revision="80ba60f6a117f73fb4497615511dac44870eacdb" upstream="refs/heads/android-external.lnx.2.0.r15-rel"/>
   <project groups="pdk" name="platform/external/libnl" path="external/libnl" revision="d665e1a2a30befd5187471808673fa8e863bc3e0" upstream="refs/heads/android-external.lnx.2.0.r15-rel"/>
   <project groups="pdk" name="platform/external/libogg" path="external/libogg" revision="6dba790f3372d03eee07c693789166ca9fa07b0a" upstream="refs/heads/android-external.lnx.2.0.r15-rel"/>
@@ -277,8 +275,6 @@
   <project groups="pdk" name="platform/external/tcpdump" path="external/tcpdump" revision="dbb0163636b74b580abcf7d1de8d834163ca0a3a" upstream="refs/heads/android-external.lnx.2.0.r15-rel"/>
   <project groups="pdk" name="platform/external/testng" path="external/testng" revision="d3bb4c37e9b45ca9511da099247f231293a2b14e" upstream="refs/heads/android-external.lnx.2.0.r15-rel"/>
   <project groups="pdk" name="platform/external/timezonepicker-support" path="external/timezonepicker-support" revision="99e91a76fd74bad10266623d67cdb98d011f709e" upstream="refs/heads/android-external.lnx.2.0.r15-rel"/>
-  <project groups="pdk" name="platform/external/tinyalsa" path="external/tinyalsa" revision="50d38dde9d390008aa85ee440a5c165539760252" upstream="refs/heads/av-aosp.lnx.2.0.r15-rel"/>
-  <project groups="pdk" name="platform/external/tinycompress" path="external/tinycompress" revision="373e0329574aacd29d7c52b2f3e4a71b0c9dea20" upstream="refs/heads/av-aosp.lnx.2.0.r15-rel"/>
   <project groups="pdk" name="platform/external/tinyxml" path="external/tinyxml" revision="b162e864bd02bb79423b4ef01d0e5e5840aa416b" upstream="refs/heads/android-external.lnx.2.0.r15-rel"/>
   <project groups="pdk" name="platform/external/tinyxml2" path="external/tinyxml2" revision="41e0f655ec890e9bfdd5b3470dc6cc5614c224d8" upstream="refs/heads/android-external.lnx.2.0.r15-rel"/>
   <project groups="pdk" name="platform/external/tlsdate" path="external/tlsdate" revision="5277834396f52a760bb237044d5539fc4aaa87bb" upstream="refs/heads/android-external.lnx.2.0.r15-rel"/>
@@ -341,17 +337,6 @@
   <project groups="pdk,broadcom_wlan" name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" revision="95ae748f2e30a21df57852bc5b7ed2bf0d475a6c" upstream="refs/heads/android-framework.lnx.2.0.r16-rel"/>
   <project groups="pdk" name="platform/hardware/google/apf" path="hardware/google/apf" revision="95e05e5aa7f3910f2f485cd0a2d85b4df9b6367c" upstream="refs/heads/android-framework.lnx.2.0.r16-rel"/>
   <project groups="nvensense,pdk" name="platform/hardware/invensense" path="hardware/invensense" revision="1cd2b91506d2398677c4cb110266132ebcc8384c" upstream="refs/heads/android-framework.lnx.2.0.r16-rel"/>
-  <project groups="pdk" name="platform/hardware/libhardware" path="hardware/libhardware" revision="092fd0d02b075983e3599a4b06c6c8b04c1309a5" upstream="refs/heads/android-framework.lnx.2.0.r16-rel"/>
-  <project groups="pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="daf802fab0407b040d41a58635139e627e50b5bd" upstream="refs/heads/android-framework.lnx.2.0.r16-rel"/>
-  <project groups="qcom,default" name="platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="58e11e6ea4c4bc22a69314730cd559382f3ba006" upstream="refs/heads/audio-userspace.lnx.2.2.r3-rel"/>
-  <project name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl" revision="2aa691bedb0282d9c4f2e7626fecad1026939d7e" upstream="refs/heads/android-blast.lnx.1.1.r15-rel"/>
-  <project groups="qcom" name="platform/hardware/qcom/bt" path="hardware/qcom/bt" revision="419dacab684315d46bfdf57d5b6ff31a3704bf2e" upstream="refs/heads/bt.lnx.2.1.r15-rel"/>
-  <project groups="qcom,default" name="platform/hardware/qcom/camera" path="hardware/qcom/camera" revision="a5ac25f2c47bbf1cd648b109c4149cef807f16eb" upstream="refs/heads/camera.lnx.2.0.r1-rel"/>
-  <project groups="qcom,default" name="platform/hardware/qcom/display" path="hardware/qcom/display" revision="744baac4527909d43bdbc6316b6154c884b92d30" upstream="refs/heads/display.lnx.3.0.r16-rel"/>
-  <project groups="qcom,qcom_gps" name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="7b597b92ff2b761130b856f55ce4e8ee1136ab8b" upstream="refs/heads/location.lnx.2.0.r16-rel"/>
-  <project groups="qcom,default" name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="12b3cc6258aa134b4b6f104477fed8e24195368c" upstream="refs/heads/video-userspace.lnx.2.1.r16-rel"/>
-  <project groups="qcom_wlan" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="0191594c3aabfd9319f97a87598dd77472d4abe9" upstream="refs/heads/wlan-aosp.lnx.2.0.r16-rel"/>
-  <project groups="pdk" name="platform/hardware/ril" path="hardware/ril" revision="6788e3552577f27fd3db18e580425d24184b25fa" upstream="refs/heads/atel.lnx.2.0.r15-rel"/>
   <project name="platform/hardware/stm" path="hardware/stm" revision="dfd6ededbbe5ae448fab083b973533985d0160a8" upstream="refs/heads/camera-stm.lnx.1.0.r15-rel"/>
   <project groups="pdk" name="platform/libcore" path="libcore" revision="f7dd776be7329f8bfa6acadf3f38d78731f0f4b0" upstream="refs/heads/android-framework.lnx.2.0.r16-rel"/>
   <project groups="pdk" name="platform/libnativehelper" path="libnativehelper" revision="e65c2d75a9fb2f1cd4e373c9d47d4f78d9309fdb" upstream="refs/heads/android-framework.lnx.2.0.r16-rel"/>
@@ -524,4 +509,58 @@
   <project name="platform/vendor/qcom/titanium_32" path="device/qcom/msm8953_32" revision="43520be693557b3d0957cb790a9965cce47d54d9" upstream="refs/heads/qcom-devices.lnx.1.0.r15-rel"/>
   <project name="platform/vendor/qcom/titanium_64" path="device/qcom/msm8953_64" revision="1f9049ba600ab6deb01d19ffa9778d62f7599404" upstream="refs/heads/qcom-devices.lnx.1.0.r15-rel"/>
   <project name="toolchain/binutils" revision="edd2dff23373691ae99fe7b0643ec9632bcfe692" upstream="refs/heads/android-framework.lnx.2.0.r16-rel"/>
+  
+    <!-- Lineage/CM/ -->
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cm-14.1" />
+  
+  <project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1" remote="github" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.1-caf-8974" />
+  <project path="hardware/qcom/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" groups="pdk" revision="cm-14.1" remote="github" />
+  <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom" revision="cm-14.1" remote="github" />
+  <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" groups="qcom" revision="cm-14.1-caf" remote="github" />
+  <project path="hardware/qcom/camera" name="LineageOS/android_hardware_qcom_camera" groups="qcom" revision="cm-14.1" remote="github" />
+  <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1" remote="github" />
+  <project path="hardware/qcom/display-caf/msm8974" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.1-caf-8974" />
+  <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" groups="qcom,qcom_fm" revision="cm-14.1" remote="github" />
+  <project path="hardware/qcom/gps" name="LineageOS/android_hardware_qcom_gps" groups="qcom,qcom_gps" revision="cm-14.1" remote="github" />
+  <project path="hardware/qcom/keymaster" name="LineageOS/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" revision="cm-14.1" remote="github" />
+  <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" groups="qcom" revision="cm-14.1" remote="github" />
+  <project path="hardware/qcom/media-caf/msm8974" name="LineageOS/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.1-caf-8974" />
+  <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan" revision="cm-14.1" remote="github" />
+  <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan" revision="cm-14.1-caf" remote="github" />
+  <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" revision="cm-14.1" remote="github" />
+  <project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" groups="pdk" revision="cm-14.1-caf" remote="github" />
+  <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" groups="pdk" remote="github" revision="cm-14.1" />
+  
+  <project path="external/htop" name="LineageOS/android_external_htop" revision="cm-14.1" remote="github" />
+  <project path="external/ffmpeg" name="LineageOS/android_external_ffmpeg" revision="cm-14.1" remote="github" />
+  <project path="external/libncurses" name="LineageOS/android_external_libncurses" revision="cm-14.1" remote="github" />
+  <project path="external/libphonenumbergoogle" name="LineageOS/android_external_libphonenumbergoogle" revision="cm-14.1" remote="github" />
+  <project path="external/fuse" name="LineageOS/android_external_fuse" revision="cm-14.1" remote="github" />
+  <project path="external/exfat" name="LineageOS/android_external_exfat" revision="cm-14.1" remote="github" />
+  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" revision="cm-14.1" remote="github" />
+  <project path="external/openssh" name="LineageOS/android_external_openssh" revision="cm-14.1" remote="github" />
+  <project path="external/rsync" name="LineageOS/android_external_rsync" revision="cm-14.1" remote="github" />
+  <project path="external/flac" name="LineageOS/android_external_flac" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="external/libnfc-nci" name="LineageOS/android_external_libnfc-nci" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="external/tinyalsa" name="LineageOS/android_external_tinyalsa" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" remote="github" revision="cm-14.1" />
+  
+  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" revision="cm-14.1" remote="github" />
+  <project path="external/connectivity" name="LineageOS/android_external_connectivity" revision="cm-14.1" remote="github" />
+  <project path="external/gson" name="LineageOS/android_external_gson" revision="cm-14.1" remote="github" />
+  <project path="external/protobuf-c" name="LineageOS/android_external_protobuf-c" revision="cm-14.1" remote="github" />
+  
+   <!-- Device sources -->
+  <project path="device/samsung/lt03lte" name="lt03lte-aosp-nougat/device_lt03lte_nougat" revision="aosp" remote="github" />
+  <project path="kernel/samsung/lt03lte" name="lt03lte-aosp-nougat/kernel_samsung_lt03lte_nougat2" revision="enforcing" remote="github" />
+  <project path="vendor/samsung/lt03lte" name="lt03lte-aosp-nougat/vendor_samsung_l03lte_nougat" revision="aosp" remote="github" />
 </manifest>
