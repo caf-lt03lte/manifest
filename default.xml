@@ -541,7 +541,7 @@
   <project path="packages/apps/ContactsCommon" name="caf-lt03lte/packages_apps_ContactsCommon" remote="github" />
   <project path="packages/apps/Contacts" name="caf-lt03lte/packages_apps_Contacts" remote="github" />
   <project path="packages/services/Telephony" name="caf-lt03lte/packages_services_Telephony" remote="github" />
-  <project path="packages/apps/substratum" name="lt03lte-aosp-nougat/platform_packages_apps_substratum" remote="github" />
+  <project path="packages/apps/substratum" name="lt03lte-aosp-nougat/platform_packages_apps_substratum" remote="github" revision="7.1.2"/>
     
   
   <project path="system/core" name="caf-lt03lte/system_core" remote="github" />
