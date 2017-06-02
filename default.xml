@@ -312,6 +312,7 @@
   <project name="platform/packages/apps/CMFileManager" path="packages/apps/CMFileManager" revision="f5587779054feb0480b6894d3fa01708009e2f34" upstream="refs/heads/android_ui.lnx.2.1.r15-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/Calculator" path="packages/apps/Calculator" revision="1ffca4f6d09fb946b095e189cebc413fd2fa5b3b" upstream="refs/heads/android_ui.lnx.2.1.r15-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/Calendar" path="packages/apps/Calendar" revision="c3727a8ffac478dbee2ca4fa8c3b33c5e24f5a86" upstream="refs/heads/android_ui.lnx.2.1.r15-rel"/>
+  <project groups="pdk-fs" name="platform/packages/apps/Camera2" path="packages/apps/Camera2" revision="efc42d13667d2ed452cbfac34d86ce6ab8cb6a4e" upstream="refs/heads/android-framework.lnx.2.0.r16-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/Camera" path="packages/apps/Camera" revision="33c59af04ab44eff0e3806f140d472252300646a" upstream="refs/heads/android-framework.lnx.2.0.r16-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/CarrierConfig" path="packages/apps/CarrierConfig" revision="440056269d7da53bd7b729b108c6bc51d32903fb" upstream="refs/heads/android_ui.lnx.2.1.r15-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" revision="0188ca014da9c9565407cbff2211ca8ad7af5cb9" upstream="refs/heads/atel.lnx.2.0.r15-rel"/>
@@ -532,7 +533,6 @@
   
   <project path="packages/apps/Settings" name="caf-lt03lte/packages_apps_Settings" remote="github" />
   <project path="packages/providers/MediaProvider" name="caf-lt03lte/packages_providers_MediaProvider" remote="github" />
-  <project path="packages/apps/Camera2" name="caf-lt03lte/packages_apps_Camera2" remote="github" />
   <project path="packages/apps/Bluetooth" name="caf-lt03lte/packages_apps_Bluetooth" remote="github" />
   <project path="packages/apps/PackageInstaller" name="caf-lt03lte/packages_apps_PackageInstaller" remote="github" />
   <project path="packages/apps/PhoneCommon" name="caf-lt03lte/packages_apps_PhoneCommon" remote="github" />
