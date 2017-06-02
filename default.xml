@@ -308,7 +308,6 @@
   <project groups="pdk" name="platform/libnativehelper" path="libnativehelper" revision="e65c2d75a9fb2f1cd4e373c9d47d4f78d9309fdb" upstream="refs/heads/android-framework.lnx.2.0.r16-rel"/>
   <project groups="generic_fs" name="platform/ndk" path="ndk" revision="f255acd92116b49634093282def8801e7b5e3261" upstream="refs/heads/android-framework.lnx.2.0.r16-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="8b78334aefce57d75fa811df1af01585bf55c3eb" upstream="refs/heads/android_ui.lnx.2.1.r15-rel"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="4e81211a521f2b98d3e53404758cd8051758a96c" upstream="refs/heads/bt.lnx.2.1.r15-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/Browser2" path="packages/apps/Browser2" revision="67b83b995803fb7728b221c015e3aeba6bf52ac7" upstream="refs/heads/android-framework.lnx.2.0.r16-rel"/>
   <project name="platform/packages/apps/CMFileManager" path="packages/apps/CMFileManager" revision="f5587779054feb0480b6894d3fa01708009e2f34" upstream="refs/heads/android_ui.lnx.2.1.r15-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/Calculator" path="packages/apps/Calculator" revision="1ffca4f6d09fb946b095e189cebc413fd2fa5b3b" upstream="refs/heads/android_ui.lnx.2.1.r15-rel"/>
