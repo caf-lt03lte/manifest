@@ -520,7 +520,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
-  <project path="bionic" name="caf-lt03lte/platform_bionic" remote="github" />
+  <project path="bionic" name="caf-lt03lte/bionic" remote="github" />
   
   <project path="external/f2fs-tools" name="caf-lt03lte/external_f2fs-tools" remote="github" />
   <project path="external/e2fsprogs" name="caf-lt03lte/external_e2fsprogs" remote="github" />
