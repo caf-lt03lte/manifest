@@ -406,7 +406,6 @@
   <project groups="pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk" revision="cb1a11cbb029614a8308c0b6157c798292a1b8bf" upstream="refs/heads/android-framework.lnx.2.0.r16-rel"/>
   <project groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" revision="bf67d923727e1e049303488191392e000eb12ccc" upstream="refs/heads/android-framework.lnx.2.0.r16-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/sdk" path="sdk" revision="317031cb0035803f54c21cc78ea7cf830a247865" upstream="refs/heads/android-framework.lnx.2.0.r16-rel"/>
-  <project groups="pdk" name="platform/system/bt" path="system/bt" revision="2085d4061b8c658c9b50e6885f910498dfa2f4c1" upstream="refs/heads/bt.lnx.2.1.r15-rel"/>
   <project groups="pdk" name="platform/system/ca-certificates" path="system/ca-certificates" revision="35f7aa5ac90b87ec90d581bb56352b5fb5edd0ee" upstream="refs/heads/android-framework.lnx.2.0.r16-rel"/>
   <project name="platform/system/connectivity/apmanager" path="system/connectivity/apmanager" revision="091f291b5a1c6bf3f88257525766b5ca52adc5c1" upstream="refs/heads/android-framework.lnx.2.0.r16-rel"/>
   <project name="platform/system/connectivity/dhcp_client" path="system/connectivity/dhcp_client" revision="c67e5219a3efb284d87109ab7f92afaeeb7533a4" upstream="refs/heads/android-framework.lnx.2.0.r16-rel"/>
