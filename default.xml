@@ -12,7 +12,6 @@
   <project name="kernel/msm-4.4" revision="e64aca1e29eee783187a98a5a4f34101cd045b1e" upstream="refs/heads/kernel.lnx.4.4.r15-rel"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989" upstream="refs/heads/android-framework.lnx.2.0.r16-rel"/>
   <project groups="pdk" name="platform/art" path="art" revision="a2d1afbb106fa04bac21404749ed7ab106b682d1" upstream="refs/heads/android-framework.lnx.2.0.r16-rel"/>
-  <project groups="pdk" name="platform/bionic" path="bionic" revision="ae733d1c17accb90fac92cf838fc0330422462b5" upstream="refs/heads/android-framework.lnx.2.0.r16-rel"/>
   <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" revision="7c2d63ba09cefce0e24457aee9314f72835c932c" upstream="refs/heads/android-framework.lnx.2.0.r16-rel"/>
   <project groups="pdk,tradefed" name="platform/build/blueprint" path="build/blueprint" revision="41a4f8811495a0a3e260ac7342cf255c33c2005b" upstream="refs/heads/android-framework.lnx.2.0.r16-rel"/>
   <project groups="pdk,tradefed" name="platform/build/kati" path="build/kati" revision="0d8f6ef0c3652de4a4b18dfa8f9b012781140ba4" upstream="refs/heads/android-framework.lnx.2.0.r16-rel"/>
