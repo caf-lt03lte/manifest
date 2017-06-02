@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://source.codeaurora.org/quic/la/" name="caf" review="codeaurora.org"/>
+    <remote  name="github" fetch="https://github.com/" revision="refs/heads/n"/>   
   <default remote="caf" revision="LA.UM.5.8.r1"/>
   <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="948623bde84325e55e76c802cd1ab4a4535fa0e1" upstream="refs/heads/uefi.lnx.1.0.r16-rel"/>
   <project name="device/qcom/common" revision="5b9bcde588504ee83682f024ef671380340d3ad8" upstream="refs/heads/qcom-devices.lnx.1.0.r15-rel">
