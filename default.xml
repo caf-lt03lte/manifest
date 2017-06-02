@@ -313,7 +313,6 @@
   <project groups="pdk" name="platform/hardware/libhardware" path="hardware/libhardware" revision="092fd0d02b075983e3599a4b06c6c8b04c1309a5" upstream="refs/heads/android-framework.lnx.2.0.r16-rel"/>
   <project groups="pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="4ebe415fba84bda1af4339304ff30d2abfc8126d" upstream="refs/heads/android-framework.lnx.2.0.r16-rel"/>
   <project groups="qcom,default" name="platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="6262ce06f345b20e7642f5bab29ce920ed97dd81" upstream="refs/heads/audio-userspace.lnx.2.2.r3-rel"/>
-  <project name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl" revision="2aa691bedb0282d9c4f2e7626fecad1026939d7e" upstream="refs/heads/android-blast.lnx.1.1.r15-rel"/>
   <project groups="qcom" name="platform/hardware/qcom/bt" path="hardware/qcom/bt" revision="4d9937a317249f46280bd99a21af09c880dc0e9c" upstream="refs/heads/bt.lnx.2.1.r15-rel"/>
   <project groups="qcom,default" name="platform/hardware/qcom/camera" path="hardware/qcom/camera" revision="f66df01790753410eee72b1abfd82119c2762653" upstream="refs/heads/camera.lnx.2.0.r1-rel"/>
   <project groups="qcom,default" name="platform/hardware/qcom/display" path="hardware/qcom/display" revision="5ea011582f12e3e0157e803ceae626ec4e049021" upstream="refs/heads/display.lnx.3.0.r16-rel"/>
