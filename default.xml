@@ -4,9 +4,6 @@
     <remote  name="github" fetch="https://github.com/" revision="refs/heads/n"/>   
   <default remote="caf" revision="LA.UM.5.8.r1"/>
   <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="948623bde84325e55e76c802cd1ab4a4535fa0e1" upstream="refs/heads/uefi.lnx.1.0.r16-rel"/>
-  <project name="device/qcom/common" revision="5b9bcde588504ee83682f024ef671380340d3ad8" upstream="refs/heads/qcom-devices.lnx.1.0.r15-rel">
-    <copyfile dest="build.sh" src="build.sh"/>
-  </project>
   <project name="device/qcom/sepolicy" revision="84d4583001857cc7ac1bcf5407bb43903ef42456" upstream="refs/heads/sepolicy.lnx.2.0.r15-rel"/>
   <project groups="pdk" name="device/sample" revision="2e54d63d04f663804d0b7ea00224ed00aa19f8af" upstream="refs/heads/android-framework.lnx.2.0.r16-rel"/>
   <project name="kernel/msm-4.4" revision="e64aca1e29eee783187a98a5a4f34101cd045b1e" upstream="refs/heads/kernel.lnx.4.4.r15-rel"/>
@@ -464,6 +461,7 @@
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cm-14.1" />
   
